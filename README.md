@@ -1,15 +1,48 @@
-# amazon-scraper
+# Amazon Scraper
 
-To install dependencies:
+This is a test project that scrapes product listings from the first page of Amazon search results based on a keyword entered by the user.  
+It uses a Bun backend (Express + Axios + JSDOM) and a Vite frontend (Vanilla JavaScript, HTML, CSS).
+
+GitHub Repo: [https://github.com/felesmanhotto/amazon-scraper](https://github.com/felesmanhotto/amazon-scraper)
+
+---
+
+# Project Structure
+
+```
+amazon-scraper/
+├── backend/      → Bun server with scraping logic
+│   ├── index.js
+│   └── scrape.js
+│
+├── frontend/     → Vite app using HTML, CSS, and JS
+│   ├── index.html
+│   ├── main.js
+│   └── style.css
+```
+
+---
+
+## How to Run
+
+### Backend (Bun)
 
 ```bash
+cd backend
 bun install
+bun index.js
 ```
 
-To run:
+Runs on: `http://localhost:3000/api/scrape?keyword=notebook`
+
+---
+
+### Frontend (Vite)
 
 ```bash
-bun run index.ts
+cd frontend
+npm install
+npm run dev
 ```
 
-This project was created using `bun init` in bun v1.2.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Runs on: `http://localhost:5173/`
