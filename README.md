@@ -31,7 +31,7 @@ bun install
 bun index.js
 ```
 
-Runs on: `http://localhost:3000/api/scrape?keyword=notebook`
+Runs on: `http://localhost:3000`
 
 ---
 
