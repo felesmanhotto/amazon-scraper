@@ -10,8 +10,7 @@ GitHub Repo: [https://github.com/felesmanhotto/amazon-scraper](https://github.co
 # Project Structure
 
 ```
-amazon-scraper/
-├── backend/      → Bun server with scraping logic
+amazon-scraper/ → Bun server with scraping logic
 │   ├── index.js
 │   └── scrape.js
 │
