@@ -28,7 +28,6 @@ amazon-scraper/
 ### Backend (Bun)
 
 ```bash
-cd backend
 bun install
 bun index.js
 ```
